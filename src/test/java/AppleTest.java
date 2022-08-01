@@ -29,7 +29,7 @@ public class AppleTest extends BaseTest{
     public void checkHref2(){
 
 
-        Assertions.assertTrue(3 < 2);
+        Assertions.assertTrue(3 > 2);
 
     }
 }
