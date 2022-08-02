@@ -17,7 +17,7 @@ public class AppleTest extends BaseTest{
     @Test
     public void checkHref(){
         String href = new MainPage(BASE_URL)
-                .search(SEARCH_STRING + "1")
+                .search(SEARCH_STRING)
                 .getHrefFromFirstArticle();
 
         Assertions.assertTrue(href.contains(EXPECTED_WORD));
